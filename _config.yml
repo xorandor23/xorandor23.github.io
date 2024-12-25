@@ -1,9 +1,9 @@
-title: Xornandor
+title: xorandor23
 description: "Blog sederhana, isinya tentang cyber security, linux, saintek, dan lain-lain."
 author:
-  name: "xornandor"
+  name: "xorandor23"
   email: "noemail"
-  url: "https://xornandor.github.io"
+  url: "https://xorandor23.github.io"
 
 baseurl: /
 
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "xornandor"
+owner : "xorandor23"
 year : "2024"
