@@ -1,6 +1,7 @@
 ---
 title: Semua Tentang CTF - Kategori Web Exploitation
 published: true
+tagged: ctf
 ---
 # Tools dan File yang Umum Digunakan
 Kategori Web Exploitation:

@@ -1,6 +1,7 @@
 ---
 title: Halaman Pertama
 published: true
+tagged: blog
 ---
 Perkenalkan, saya Xornandor (nama samaran). Saya saat ini sedang menempuh pendidikan tinggi di Jurusan Teknik Informatika, Program Studi Rekayasa Keamanan Siber. Hobi saya adalah mengeksplor hal-hal yang berkaitan dengan IT, mendengarkan musik, membaca, dan lain-lain.
 

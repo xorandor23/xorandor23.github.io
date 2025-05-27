@@ -1,6 +1,7 @@
 ---
 title: Alpine Linux - Distro Linux Paling Ringan
 published: true
+tagged: blog
 ---
 ![Alpine Linux Banner](/assets/images/banner.jpg)
 
