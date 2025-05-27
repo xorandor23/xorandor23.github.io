@@ -1,4 +1,4 @@
 ---
 layout: tags
-tagged: blog
+tag: blog
 ---
