@@ -264,6 +264,7 @@ a:active, a:focus {
 
 .pagination, footer {
   height: 50px;
+  border-top: 1px dashed $conifer; //header;
   line-height: 50px;
   text-align: center;
 }
