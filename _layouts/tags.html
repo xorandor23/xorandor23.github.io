@@ -6,12 +6,6 @@ layout: default
 <h1>Articles tagged with "{{ page.tag }}"</h1>
 <ul style='padding-top: 16px;'>
 
-<div class="container">
-    <section id="main_content">
-        {{ content }}
-    </section>
-</div>
-
 {% for post in site.posts %}
     {% if post.tags contains page.tag %}
     <li><a href="{{ post.url }}">{{ post.title }}</a>, published {{ post.date | date: "%Y-%m-%d" }}</li>
