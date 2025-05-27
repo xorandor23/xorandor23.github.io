@@ -12,10 +12,10 @@ end
 def generate_tag_file(tag)
     # generate tag file
     File.open("tags/#{tag}.md", "wb") do |file|
-    file << "---\nlayout: tags\ntagged: #{tag}\n---\n"
+    file << "---\nlayout: tags\ntag: #{tag}\n---\n"
     end
     # generate feed file
     File.open("feeds/#{tag}.xml", "wb") do |file|
-    file << "---\nlayout: feed\ntagged: #{tag}\n---\n"
+    file << "---\nlayout: feed\ntag: #{tag}\n---\n"
     end
 end
