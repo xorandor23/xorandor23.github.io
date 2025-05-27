@@ -3,6 +3,7 @@ title: Alpine Linux - Distro Linux Paling Ringan
 published: true
 ---
 ![Alpine Linux Banner](/assets/images/banner.jpg)
+
 Mungkin kebanyakan dari kalian belum pernah dengar distro ini, karena umumnya orang menggunakan distro linux seperti Ubuntu, Debian, Arch, atau Linux Mint. Nahh, jadi aku mau sharing dikit tentang Alpine Linux ini dan keunggulannya dengan distro yang lain.
 
 # Ukuran Yang Kecil
