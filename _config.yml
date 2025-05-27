@@ -30,6 +30,7 @@ plugins:
 tags:
   - blog
   - ctf
+  - college-note
 
 # Custom variables
 owner : "xorandor23"
