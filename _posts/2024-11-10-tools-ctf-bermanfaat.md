@@ -64,7 +64,7 @@ SELECT CustomerName, /*City,*/ Country FROM Customers;
 
 ## SSTI Payloads (Untuk Jinja/Flask)
 
-Kode dari (payloadbox/ssti-payloads)[https://github.com/payloadbox/ssti-payloads]
+Kode dari [payloadbox/ssti-payloads](https://github.com/payloadbox/ssti-payloads)
 
 ```python
 {{2*2}}[[3*3]]
