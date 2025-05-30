@@ -67,7 +67,7 @@ SELECT CustomerName, /*City,*/ Country FROM Customers;
 Kode dari [payloadbox/ssti-payloads](https://github.com/payloadbox/ssti-payloads).
 
 {% raw %}
-```html
+```tex
 {{2*2}}[[3*3]]
 {{3*3}}
 {{3*'3'}}
