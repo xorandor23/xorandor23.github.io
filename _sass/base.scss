@@ -17,7 +17,7 @@ body {
   padding: 0;
   background: $body-background url("../assets/bkg.png") 0 0;
   color: $body-foreground;
-  font-size: 15px;
+  font-size: calc(0.8rem + 0.3vw);
   line-height: 1.5;
   font-family: "Fira Code", monospace;
 }
@@ -66,7 +66,7 @@ header {
 }
 
 header h1 {
-  font-size: calc(0.8rem + 0.3vw);
+  font-size: 24px;
   line-height: 1.5;
   margin: 0;
   text-align: center;
