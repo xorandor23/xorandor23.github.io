@@ -35,7 +35,7 @@ GNS3 (Graphical Network Simulation-3) adalah perangkat lunak simulasi jaringan y
 # Penjelasan Bagian pada GNS3
 ![gns3-image](/assets/images/gns3-tutorial-8.png)
 
-Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini. Setiap perangkat pada topologi disebut Node. 
+Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini. Nantinya kita akan mencoba membuat topologi sederhana. Setiap perangkat pada topologi disebut Node. 
 
 ### Bagian 1:
 - Bagian **1.1** berisi daftar perangkat router yang tersedia. Untuk saat ini, routernya mungkin tidak ada karena kita harus menambahkan image routernya secara manual ke GNS3. Akan saya jelaskan cara untuk menambahkan router pada bagian selanjutnya. Router yang bisa kita tambahkan adalah router Cisco IOS.
