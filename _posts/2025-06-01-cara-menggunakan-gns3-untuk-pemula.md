@@ -95,7 +95,7 @@ Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini
 
     - Pastikan mengklik pada port yang statusnya masih kotak. Jika status port adalah lingkaran, berarti port sedang digunakan. <br><br> 
     ![alt text](/assets/images/gns3-connecting-3.png)
-    <br>
+<br>
 
 4. Sekarang, kita akan menambahkan IP address ke PC1 dan PC2. Klik tombol Play (Bagian 2.3) untuk menghidupkan seluruh perangkat. Lalu klik dua kali pada PC1 hingga muncul Terminal. Ketik perintah dibawah ini:
 ```sh
