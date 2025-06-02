@@ -35,15 +35,31 @@ GNS3 (Graphical Network Simulation-3) adalah perangkat lunak simulasi jaringan y
 # Penjelasan Bagian pada GNS3
 ![gns3-image](/assets/images/gns3-tutorial-8.png)
 
-Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini. Bagian **1.1** adalah logo router yang isinya adalah daftar perangkat router yang tersedia. Untuk saat ini, routernya mungkin tidak ada karena kita harus menambahkan image routernya secara manual ke GNS3. Akan saya jelaskan cara untuk menambahkan router pada bagian selanjutnya. Router yang bisa kita tambahkan adalah router Cisco IOS.
+Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini. Setiap perangkat pada topologi disebut Nodes. 
 
-Bagian **1.2** berisi daftar perangkat Switch yang tersedia. GNS3 sudah menyediakan perangkat Switch yang bisa langsung kita gunakan, yakni ATM Switch, Ethernet Hub, Ethernet Switch, dan Frame Relay switch.
+### Bagian 1:
+- Bagian **1.1** berisi daftar perangkat router yang tersedia. Untuk saat ini, routernya mungkin tidak ada karena kita harus menambahkan image routernya secara manual ke GNS3. Akan saya jelaskan cara untuk menambahkan router pada bagian selanjutnya. Router yang bisa kita tambahkan adalah router Cisco IOS.
 
-Bagian **1.3** berisi daftar End Devices yang tersedia. End Devices adalah istilah yang merujuk pada perangkat yang menjadi sumber atau tujuan data dalam sebuah jaringan komputer, seperti komputer, laptop, ponsel, atau printer. Untuk saat ini hanya beberapa End Devices yang disediakan oleh GNS3 seperti Virtual PCs (VPCS), NAT (Network Address Translation), dan Cloud. Kita bisa menambahkan Komputer sendiri dari VirtualBox atau VMWare.
+- Bagian **1.2** berisi daftar perangkat Switch yang tersedia. GNS3 sudah menyediakan perangkat Switch yang bisa langsung kita gunakan, yakni ATM Switch, Ethernet Hub, Ethernet Switch, dan Frame Relay switch.
 
-Bagian **1.4** berisi daftar dari Security Devices. Untuk saat ini Security Devicesnya belum ada disediakan karena kita harus menambahkannya secara manual. Biasanya, bagian ini berisi perangkat Firewall, Intrusion Detection System (IDS), dan Intrusion Prevention System (IPS).
+- Bagian **1.3** berisi daftar End Devices yang tersedia. End Devices adalah istilah yang merujuk pada perangkat yang menjadi sumber atau tujuan data dalam sebuah jaringan komputer, seperti komputer, laptop, ponsel, atau printer. Untuk saat ini hanya beberapa End Devices yang disediakan oleh GNS3 seperti Virtual PCs (VPCS), NAT (Network Address Translation), dan Cloud. Kita bisa menambahkan Komputer sendiri dari emulator seperti VirtualBox atau VMWare.
 
+- Bagian **1.4** berisi daftar dari Security Devices. Untuk saat ini Security Devicesnya belum ada disediakan karena kita harus menambahkannya secara manual. Biasanya, bagian ini berisi perangkat Firewall, Intrusion Detection System (IDS), dan Intrusion Prevention System (IPS).
 
+- Bagian **1.5** adalah bagian yang menampilkan seluruh daftar perangkat yang ada pada GNS3.
 
+- Bagian **1.6** adalah logo kabel untuk menghubungkan perangkat satu sama lain.
 
+### Bagian 2:
+- Bagian **2.1** adalah bagian untuk menambahkan project (logo kiri) dan membuka project yang sudah ada (logo kanan).
 
+- Bagian **2.2** terdapat dua logo, yakni logo Jam dan logo Huruf dengan Kabel. Logo Jam adalah fitur Snapshot yang digunakan untuk menyimpan keadaan topologi saat ini, dan mengembalikan topologi ke keadaan sebelumnya jika terjadi kesalahan. Logo Huruf dengan Kabel digunakan untuk menampilkan Interface yang digunakan pada masing-masing perangkat untuk terhubung ke perangkat lain.
+
+- Bagian **2.3** terdapat lima logo:
+    1. Logo pertama dari kiri, untuk menampilkan terminal emulator yang terhubung pada protokol SSH. Terminal emulator ini seperti Command Line pada sistem operasi Windows, fungsinya untuk berinteraksi dengan sistem melalui teks saja. 
+    2. Logo kedua, berfungsi untuk menghidupkan semua perangkat pada topologi. 
+    3. Logo ketiga berfungsi untuk mengpause semua aktivitas pada topologi. 
+    4. Logo keempat berfungsi untuk mematikan semua perangkat pada topologi. Dan 
+    5. Logo terakhir untuk merestart semua perangkat.
+
+# Cara Menambahkan Cisco IOS
