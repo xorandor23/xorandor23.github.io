@@ -85,16 +85,16 @@ Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini
 # Cara Membuat Topologi Sederhana
 
 1. Buka GNS3, lalu tunggu sampai muncul pesan ini.<br><br>
-![gns3-image](/assets/images/gns3-connecting-1.png){: width="500" }
+![gns3-image](/assets/images/gns3-connecting-1.png)
 
 2. Kemudian, kalian akan diberikan tampilan seperti gambar dibawah. Ganti nama "untitled" menjadi nama untuk project yang akan dibuat. Jika sudah, klik "Ok".<br><br>
-![gns3-image](/assets/images/gns3-connecting-2.png){: width="550" }
+![gns3-image](/assets/images/gns3-connecting-2.png)
 
 3. Tambahkan 1 Switch dan 2 Virtual PCs (VPCS). Klik logo kabel (Bagian 1.6), lalu hubungkan perangkat satu sama lain seperti gambar dibawah ini.<br><br> 
-![alt text](/assets/images/gns3-connecting-4.png){: width="500" }
+![alt text](/assets/images/gns3-connecting-4.png)
 
     - Pastikan mengklik pada port yang statusnya masih kotak. Jika status port adalah lingkaran, berarti port sedang digunakan. <br><br> 
-    ![alt text](/assets/images/gns3-connecting-3.png){: width="400" }
+    ![alt text](/assets/images/gns3-connecting-3.png)
 
 4. Sekarang, kita akan menambahkan IP address ke PC1 dan PC2. Klik tombol Play (Bagian 2.3) untuk menghidupkan PC. Lalu klik dua kali pada PC1 hingga muncul Terminal. Ketik perintah dibawah ini:
 ```sh
