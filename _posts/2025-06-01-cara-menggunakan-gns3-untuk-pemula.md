@@ -12,7 +12,7 @@ GNS3 (Graphical Network Simulation-3) adalah perangkat lunak simulasi jaringan y
 
 # Cara Menginstall GNS3
 1. GNS3 dapat diunduh secara langsung melalui tautan berikut: [https://www.gns3.com/software/download](https://www.gns3.com/software/download){:target="_blank"}. Pilihlah sesuai dengan sistem operasi yang kalian gunakan.<br>
-![gns3-image](/assets/images/gns3-tutorial-1.png)
+![gns3-image](/assets/images/gns3-tutorial-1.png){: style="width: 50%;" }
 
 2. Setelah diunduh, klik filenya. Kemudian kalian akan diarahkan untuk menginstall GNS3 ke komputer kita. Pastikan memilih opsi "Local Installation" pada tahap "Choose Components".<br>
 ![gns3-image](/assets/images/gns3-tutorial-2.png)
