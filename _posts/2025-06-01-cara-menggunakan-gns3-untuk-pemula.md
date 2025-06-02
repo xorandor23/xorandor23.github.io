@@ -55,13 +55,13 @@ Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini
 
 - Bagian **2.2** terdapat dua logo, yakni logo Jam dan logo Huruf dengan Kabel. Logo Jam adalah fitur Snapshot yang digunakan untuk menyimpan keadaan topologi saat ini, dan mengembalikan topologi ke keadaan sebelumnya jika terjadi kesalahan. Logo Huruf dengan Kabel digunakan untuk menampilkan Interface yang digunakan pada masing-masing perangkat untuk terhubung ke perangkat lain.
 
-- Bagian **2.3** terdapat lima logo:
-1. Logo pertama dari kiri, untuk menampilkan terminal emulator yang terhubung pada protokol SSH. Terminal emulator ini seperti Command Line pada sistem operasi Windows, fungsinya untuk berinteraksi dengan sistem melalui teks saja. 
-2. Logo kedua, berfungsi untuk menghidupkan semua perangkat pada topologi. 
-3. Logo ketiga berfungsi untuk mengpause semua aktivitas pada topologi. 
-4. Logo keempat berfungsi untuk mematikan semua perangkat pada topologi. Dan 
-5. Logo terakhir untuk merestart semua perangkat.
+- Bagian **2.3** terdapat lima logo:<br>
+    - Logo pertama dari kiri, untuk menampilkan terminal emulator yang terhubung pada protokol SSH. Terminal emulator ini seperti Command Line pada sistem operasi Windows, fungsinya untuk berinteraksi dengan sistem melalui teks saja. 
+    - Logo kedua, berfungsi untuk menghidupkan semua perangkat pada topologi. 
+    - Logo ketiga berfungsi untuk mengpause semua aktivitas pada topologi. 
+    - Logo keempat berfungsi untuk mematikan semua perangkat pada topologi. Dan 
+    - Logo terakhir untuk merestart semua perangkat. <br>
 
--  Bagian ****
+- Bagian **2.4**:
 
 # Cara Menambahkan Cisco IOS
