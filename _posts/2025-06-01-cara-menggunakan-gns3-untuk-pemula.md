@@ -12,25 +12,25 @@ GNS3 (Graphical Network Simulation-3) adalah perangkat lunak simulasi jaringan y
 
 # Cara Menginstall GNS3
 1. GNS3 dapat diunduh secara langsung melalui tautan berikut: [https://www.gns3.com/software/download](https://www.gns3.com/software/download){:target="_blank"}. Pilihlah sesuai dengan sistem operasi yang kalian gunakan.
-![gns3-image](/assets/images/gns3-tutorial-1.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-1.png)</p>
 
 2. Setelah diunduh, klik filenya. Kemudian kalian akan diarahkan untuk menginstall GNS3 ke komputer kita. Pastikan memilih opsi "Local Installation" pada tahap "Choose Components".
-![gns3-image](/assets/images/gns3-tutorial-2.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-2.png)</p>
 
 3. Kita dapat mengubah lokasi direktori dimana GNS3 akan disimpan. Namun sebaiknya, saya sarankan agar menggunakan direktori Default dari GNS3 saja jika ruang penyimpanan pada Local Disk masih cukup.
-![gns3-image](/assets/images/gns3-tutorial-3.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-3.png)</p>
 
 4. Klik "Next", tunggu hingga instalasai selesai. Jika ada muncul pesan seperti pada gambar ini, kalian bisa klik "Ok". Pesan tersebut menandakan bahwa WinPCAP sudah diinstal sebelumnya di komputer kalian.
-![gns3-image](/assets/images/gns3-tutorial-4.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-4.png)</p>
 
 5. Jika WinPCAP belum diinstal, maka akan keluar pesan seperti gambar dibawah. Kalian ikuti arahannya saja untuk menginstall.
-![gns3-image](/assets/images/gns3-tutorial-5.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-5.png)</p>
 
 5. Pada tahap "Solarwinds Standard Toolset", saya sarankan kalian pilih "No" lalu klik "Next".
-![gns3-image](/assets/images/gns3-tutorial-6.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-6.png)</p>
 
 6. Instalasi yang berhasil akan memberikan pesan seperti gambar dibawah ini.
-![gns3-image](/assets/images/gns3-tutorial-7.png)
+<p>![gns3-image](/assets/images/gns3-tutorial-7.png)</p>
 
 # Tahap Awal setelah Instalasi GNS3
 Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar dibawah ini. 
