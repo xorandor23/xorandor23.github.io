@@ -35,7 +35,7 @@ GNS3 (Graphical Network Simulation-3) adalah perangkat lunak simulasi jaringan y
 # Penjelasan Bagian pada GNS3
 ![gns3-image](/assets/images/gns3-tutorial-8.png)
 
-Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini. Setiap perangkat pada topologi disebut Nodes. 
+Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini. Setiap perangkat pada topologi disebut Node. 
 
 ### Bagian 1:
 - Bagian **1.1** berisi daftar perangkat router yang tersedia. Untuk saat ini, routernya mungkin tidak ada karena kita harus menambahkan image routernya secara manual ke GNS3. Akan saya jelaskan cara untuk menambahkan router pada bagian selanjutnya. Router yang bisa kita tambahkan adalah router Cisco IOS.
@@ -53,16 +53,56 @@ Tampilan awal GNS3 setelah diinstal akan terlihat seperti pada gambar diatas ini
 ### Bagian 2:
 - Bagian **2.1** adalah bagian untuk menambahkan project (logo kiri) dan membuka project yang sudah ada (logo kanan).
 
-- Bagian **2.2** terdapat dua logo, yakni logo Jam dan logo Huruf dengan Kabel. Logo Jam adalah fitur Snapshot yang digunakan untuk menyimpan keadaan topologi saat ini, dan mengembalikan topologi ke keadaan sebelumnya jika terjadi kesalahan. Logo Huruf dengan Kabel digunakan untuk menampilkan Interface yang digunakan pada masing-masing perangkat untuk terhubung ke perangkat lain.
+- Bagian **2.2** terdapat dua logo, yakni logo Jam dan logo Huruf dengan Kabel. Logo Jam adalah fitur Snapshot yang berfungsi untuk menyimpan keadaan topologi saat ini, dan mengembalikan topologi ke keadaan sebelumnya jika terjadi kesalahan. Logo Huruf dengan Kabel berfungsi untuk menampilkan Interface yang digunakan pada masing-masing perangkat untuk terhubung ke perangkat lain.
 
 - Bagian **2.3** terdapat lima logo:
 
-    - Logo pertama dari kiri, untuk menampilkan terminal emulator yang terhubung pada protokol SSH. Terminal emulator ini seperti Command Line pada sistem operasi Windows, fungsinya untuk berinteraksi dengan sistem melalui teks saja. 
+    - Logo pertama dari kiri, berfungsi untuk menampilkan terminal emulator dari perangkat yang memiliki protokol SSH. Terminal emulator ini seperti Command Line pada sistem operasi Windows, fungsinya untuk berinteraksi dengan sistem melalui teks saja. 
     - Logo kedua, berfungsi untuk menghidupkan semua perangkat pada topologi. 
     - Logo ketiga berfungsi untuk mengpause semua aktivitas pada topologi. 
     - Logo keempat berfungsi untuk mematikan semua perangkat pada topologi. Dan 
-    - Logo terakhir untuk merestart semua perangkat.
+    - Logo terakhir berfungsi untuk merestart semua perangkat.
 
 - Bagian **2.4**:
 
-# Cara Menambahkan Cisco IOS
+    - Logo pertama dari kiri, berfungsi untuk menambahkan teks pada kotak 4.1 (area sekitar topologi).
+    - Logo kedua berfungsi untuk menambahkan gambar.
+    - Logo ketiga, keempat, dan kelima berfungsi untuk menambahkan Bentuk kotak, lingkaran, dan garis pada topologi.
+    - Logo keenam berfungsi untuk mengunci agar tidak bisa memindahkan Node.
+    - Logo ketujuh dan kedelapan berfungsi untuk memperbesar dan memperkecil tampilan topologi. Dan
+    - Logo kesembilan, berfungsi untuk melakukan screenshot pada topologi.
+
+- Bagian **3.1** adalah tampilan list dari perangkat yang tersedia berdasarkan kategori perangkat.
+
+- Bagian **3.2** adalah log, yang menampilkan aktivitas yang sedang berlangsung dalam GNS3.
+
+- Bagian **3.3** berisi daftar perangkat yang digunakan pada topologi.
+
+- Bagian **3.4** berisi daftar server GNS3 yang tersedia. Server ini berperan penting agar GNS3 bisa berjalan dengan baik.
+
+- Bagian **4.1** adalah area dimana topologi ditampilkan.
+
+# Cara Membuat Topologi Sederhana
+
+1. Buka GNS3, lalu tunggu sampai muncul pesan ini.<br><br>
+![gns3-image](/assets/images/gns3-connecting-1.png){: width="500" }
+
+2. Kemudian, kalian akan diberikan tampilan seperti gambar dibawah. Ganti nama "untitled" menjadi nama untuk project yang akan dibuat. Jika sudah, klik "Ok".<br><br>
+![gns3-image](/assets/images/gns3-connecting-2.png){: width="500" }
+
+3. Tambahkan 1 Switch dan 2 Virtual PCs (VPCS). Klik logo kabel (Bagian 1.6), lalu hubungkan perangkat satu sama lain seperti gambar dibawah ini.<br><br> 
+![alt text](/assets/images/gns3-connecting-4.png){: width="500" }
+
+    - Pastikan mengklik pada port yang statusnya masih kotak. Jika status port adalah lingkaran, berarti port sedang digunakan. <br><br> 
+    ![alt text](/assets/images/gns3-connecting-3.png){: width="500" }
+
+4. Sekarang, kita akan menambahkan IP address ke PC1 dan PC2. Klik tombol Play (Bagian 2.3) untuk menghidupkan PC. Lalu klik dua kali pada PC1 hingga muncul Terminal. Ketik perintah dibawah ini:
+```sh
+ip 10.0.0.1/24 
+```
+Lakukan hal yang sama dengan PC2, tapi IP nya diganti menjadi `10.0.0.2/24`.
+
+5. Kita akan mencoba melakukan ping di setiap PC untuk memastikan bisa saling terhubung satu sama lain. Ketik perintah `ping 10.0.0.2` pada PC1 dan `ping 10.0.0.2` pada PC2.
+
+# Akhir Kata
+Kurang lebih ini ilmu yang dapat saya bagikan kepada teman-teman untuk belajar GNS3. Saya harap apa yang saya bagikan ini bisa bermanfaat untuk kedepannya. Keep Learning!
