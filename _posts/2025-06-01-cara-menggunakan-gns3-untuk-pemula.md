@@ -26,15 +26,15 @@ GNS3 (Graphical Network Simulation-3) adalah perangkat lunak simulasi jaringan y
 
 ![gns3-image](/assets/images/gns3-tutorial-4.png)
 
-- Jika WinPCAP belum diinstal, maka akan keluar pesan seperti gambar dibawah. Kalian ikuti arahannya saja untuk menginstall.
+5. Jika WinPCAP belum diinstal, maka akan keluar pesan seperti gambar dibawah. Kalian ikuti arahannya saja untuk menginstall.
 
 ![gns3-image](/assets/images/gns3-tutorial-5.png)
 
-6. Pada tahap "Solarwinds Standard Toolset", saya sarankan kalian pilih "No" lalu klik "Next".
+5. Pada tahap "Solarwinds Standard Toolset", saya sarankan kalian pilih "No" lalu klik "Next".
 
 ![gns3-image](/assets/images/gns3-tutorial-6.png)
 
-7. Instalasi yang berhasil akan memberikan pesan seperti gambar dibawah ini.
+6. Instalasi yang berhasil akan memberikan pesan seperti gambar dibawah ini.
 
 ![gns3-image](/assets/images/gns3-tutorial-7.png)
 
