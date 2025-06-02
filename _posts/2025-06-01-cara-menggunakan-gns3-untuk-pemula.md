@@ -105,4 +105,4 @@ Lakukan hal yang sama dengan PC2, tapi IP nya diganti menjadi `10.0.0.2/24`.
 5. Kita akan mencoba melakukan ping di setiap PC untuk memastikan bisa saling terhubung satu sama lain. Ketik perintah `ping 10.0.0.2` pada PC1 dan `ping 10.0.0.2` pada PC2.
 
 # Akhir Kata
-Kurang lebih ini ilmu yang dapat saya bagikan kepada teman-teman untuk belajar GNS3. Saya harap apa yang saya bagikan ini bisa bermanfaat untuk kedepannya. Keep Learning!
+Kurang lebih ini ilmu yang dapat saya bagikan kepada teman-teman untuk belajar GNS3. Selanjutnya, saya akan memposting bagaimana cara menambahkan Router Cisco dan Mengimport Virtual Machine dari VirtualBox dan VMWare. Saya harap apa yang saya bagikan ini bisa bermanfaat untuk kedepannya. Keep Learning!
