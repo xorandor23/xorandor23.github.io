@@ -33,7 +33,7 @@ Contoh serangan ICS yang paling populer adalah Stuxnet. Stuxnet adalah worm komp
 Sekitar 1.000 dari 5.000 sentrifugal rusak terkena dampak serangan. Serangan ini menyebabkan gangguan besar pada program nuklir Iran tanpa perlu serangan militer terbuka. Stuxnet merupakan contoh pertama malware yang secara nyata merusak infrastruktur fisik melalui SCADA, dan diyakini dikembangkan oleh negara (kemungkinan AS dan Israel).
 
 ### Sumber
-1. NIST 800-802, Guide to Operational Technology (OT) Security. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.ipd.pdf
+1. (NIST 800-802, Guide to Operational Technology (OT) Security.)[https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.ipd.pdf]
 
 2. Book, CYBERSECURITY FOR INDUSTRIAL CONTROL SYSTEMS (SCADA, DCS, PLC, HMI), 2012.
 
