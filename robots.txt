@@ -1,2 +1,1 @@
-User-agent: *
-Disallow: /contact.html
+Sitemap: https://xorandor23.github.io/sitemap.xml
