@@ -35,7 +35,7 @@ nmap -sT -O 127.0.0.1
 
 Output yang ditampilkan dari `nmap` ketika melakukan port scanning adalah seperti dibawah ini (dari google.com). Tulisan `80/tcp` dan `443/tcp` adalah port yang terbuka. Jika port tersebut sedang tidak digunakan, sebaiknya matikan layanan yang menggunakan port tersebut.
 
-```log
+```
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 15:47 +07
 Nmap scan report for google.com (74.125.68.102)
 Host is up (0.011s latency).
