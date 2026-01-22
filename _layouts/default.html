@@ -17,7 +17,7 @@
     {% elsif paginator.previous_page%}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&lt;&lt;</a>
     {% else %}
-    <span class="page-item">&laquo;</span>
+    <span class="page-item"></span>
     {% endif %} {% for page in (1..paginator.total_pages) %} {% if page == paginator.page %}
     <span class="page-item">{{ page }}</span>
     {% elsif page == 1 %}
