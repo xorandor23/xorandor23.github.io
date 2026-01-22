@@ -3,35 +3,34 @@ layout: page
 title: Arsip
 ---
 
+{% capture current_year %}{{ 'now' | date: "%Y" }}{% endcapture %}
 
-{% if site.posts[0] %}
-{% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-{% if currentyear == firstpostyear %}
-    <h1>Tahun ini</h1>
-{% else %}  
-    <h1>{{ firstpostyear }}</h1>
-{% endif %}
+{% for post in site.posts %}
+  {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
 
+  {% if post_year != year %}
+    
+    {% unless forloop.first %}</ul>{% endunless %}
 
-{%for post in site.posts %}
-  {% unless post.next %}
-      <ul class="archive-list">
-  {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-      </ul>
-      <h1>{{ post.date | date: '%Y' }}</h1>
-      <ul class="archive-list">
+    {% if post_year == current_year %}
+      <h1>Tahun Ini</h1>
+    {% else %}
+      <h1>{{ post_year }}</h1>
     {% endif %}
-  {% endunless %}
-      <li class="archive-item">
-          <div class="item-content">
-              <span class="archive-date">{{ post.date | date:"%d %b" }}</span>
-              <a href="#" class="archive-title">{{ post.title }}</a>
-          </div>
-      </li>
-{% endfor %}
-</ul>
 
-{% endif %}
+    <ul class="archive-list">
+    
+    {% assign year = post_year %}
+  {% endif %}
+
+  <li class="archive-item">
+      <div class="item-content">
+          <span class="archive-date">{{ post.date | date: "%d %b" }}</span>
+          
+          <a href="{{ post.url | relative_url }}" class="archive-title">{{ post.title }}</a>
+      </div>
+  </li>
+
+  {% if forloop.last %}</ul>{% endif %}
+
+{% endfor %}
