@@ -191,6 +191,13 @@ li.archive-item {
     color: #111;
 }
 
+.post-body img, .post-content img {
+    max-width: 100%;  /* Gambar tidak akan pernah lebih lebar dari kontainernya */
+    height: auto;     /* Menjaga proporsi (aspect ratio) gambar agar tidak gepeng */
+    display: block;   /* Menjadikan gambar elemen blok agar mudah diatur posisinya */
+    margin: 25px auto; /* (Opsional) Memberi jarak atas-bawah dan membuat gambar rata tengah */
+}
+
 /* =========================================
    9. FOOTER
    ========================================= */
