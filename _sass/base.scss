@@ -68,7 +68,7 @@ h1.site-title {
 }
 
 .post-title {
-    font-size: 28px; /* Mengambil ukuran yang sedikit lebih besar agar jelas */
+    font-size: 26px; /* Mengambil ukuran yang sedikit lebih besar agar jelas */
     font-weight: 400;
     margin: 0 0 10px 0;
     color: #111;
@@ -92,10 +92,15 @@ h1.site-title {
 
 .post-date {
     font-size: 17px;
-    color: #444; /* Sedikit lebih gelap dari #222 agar konsisten */
-    margin-top: 5px;
+    color: #222;
     margin-bottom: 35px;
-    text-align: right; /* Default untuk list, bisa di override jika perlu */
+}
+
+.post-date-2 {
+    text-align: right; /* Tanggal rata kanan */
+    font-size: 16px;
+    color: #444;
+    margin-top: 5px;
 }
 
 /* =========================================
@@ -159,8 +164,8 @@ li.archive-item {
 }
 
 .archive-date {
-    width: 130px;
-    flex-shrink: 0;
+    width: 130px;          /* Lebar tetap agar judul di kanan lurus rata */
+    flex-shrink: 0;        /* Mencegah tanggal menyusut */
     color: #1a1a1a;
 }
 
