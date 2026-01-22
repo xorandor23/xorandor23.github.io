@@ -48,10 +48,12 @@ PHP Webshell (Execute Linux Command) dari [joswr1ght](https://gist.github.com/jo
 ```
 
 ## Comment Pada SQL
+Cara 1
 ```sql
 SELECT * FROM Customers -- WHERE City='Berlin';
 ```
 
+Cara 2
 ```sql
 /*Select all the columns
 of all the records
@@ -59,6 +61,7 @@ in the Customers table:*/
 SELECT * FROM Customers;
 ```
 
+Cara 3
 ```sql
 SELECT CustomerName, /*City,*/ Country FROM Customers;
 ```
