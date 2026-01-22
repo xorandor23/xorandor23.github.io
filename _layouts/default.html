@@ -8,7 +8,6 @@
     <section id="main_content">
       {{ content }}
     </section>
-  </div>
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
@@ -29,9 +28,10 @@
     {% else %}
     <span class="page-item">&gt;&gt;</span>
     {% endif %}
-    {% include footer.html %}
   </div>
   {% endif %}
+  {% include footer.html %}
+  </div>
 
   {% if site.google_analytics %}
     {% include analytics.html %}
