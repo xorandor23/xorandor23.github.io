@@ -1,6 +1,6 @@
 ---
 title: Alur Belajar Cyber Security Aku
-published: true
+published: false
 tags: bootcamp-note
 ---
 Halo teman-teman, jadi sekarang aku lagi ikut bootcamp IDN nih dan aku diminta untuk membuat roadmap aku dalam 5 tahun kedepan untuk belajar Cyber Security. Berikut roadmap yang aku buat sendiri, dan aku harap dengan roadmap ini aku bisa konsisten untuk terus mengikuti path yang ada :D
