@@ -242,6 +242,7 @@ div.highlighter-rouge, .highlight {
     /* KUNCI AGAR TIDAK OVERSIZE: */
     max-width: 100%;        /* Lebar maksimal mengikuti layar */
     overflow-x: auto;       /* Memunculkan scrollbar jika teks kepanjangan */
+    display: block; /* Memastikan elemen bersifat blok */
 }
 
 /* Mengatur font kode agar rapi */

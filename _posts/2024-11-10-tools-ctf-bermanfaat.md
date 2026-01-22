@@ -58,6 +58,7 @@ of all the records
 in the Customers table:*/
 SELECT * FROM Customers;
 ```
+
 ```sql
 SELECT CustomerName, /*City,*/ Country FROM Customers;
 ```
