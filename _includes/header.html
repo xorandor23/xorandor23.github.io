@@ -15,7 +15,7 @@
 <header>
     {% assign owner_first_name = site.owner | split: " " %}
     <h1 class="site-title">{{ owner_first_name[0] | downcase }}</h1>
-    <div class="site-subtitle">A blog dedicated for Raihan Julyandri.</div>
+    <div class="site-subtitle">{{ page.description }}</div>
 </header>
 
 <nav class="nav-container">
