@@ -29,8 +29,9 @@
     {% else %}
     <span class="page-item">&gt;&gt;</span>
     {% endif %}
+    {% include footer.html %}
   </div>
-  {% endif %} {% include footer.html %}
+  {% endif %}
 
   {% if site.google_analytics %}
     {% include analytics.html %}
