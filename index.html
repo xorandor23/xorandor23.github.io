@@ -2,12 +2,16 @@
 layout: default
 ---
 
-<ul>
+<main>
     {% for post in paginator.posts %}
-      <li>
-          <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-          <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-      </li>
+    <article class="post-item">
+        <h2 class="post-title">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+        </h2>
+        <div class="post-excerpt">
+          {{ post.content | strip_html | truncatewords:50 }}        
+        </div>
+        <div class="post-date">{{ post.date | date_to_string }}.</div>
+    </article>
     {% endfor %}
-</ul>
+</main>
