@@ -1,4 +1,6 @@
-/* Menggunakan Inria Serif sesuai desain pada gambar */
+/* =========================================
+   1. GLOBAL & TYPOGRAPHY
+   ========================================= */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
 
 body {
@@ -10,9 +12,22 @@ body {
     line-height: 1.5;
 }
 
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+/* =========================================
+   2. HEADER & BRANDING
+   ========================================= */
+header {
+    margin-bottom: 20px;
+}
+
 h1.site-title {
     font-size: 48px;
-    font-weight: 400; /* Regular weight sesuai gambar */
+    font-weight: 400;
     margin: 0;
     line-height: 1.2;
 }
@@ -23,12 +38,14 @@ h1.site-title {
     margin: 5px 0 25px 0;
 }
 
-/* --- NAVIGATION SECTION --- */
+/* =========================================
+   3. NAVIGATION
+   ========================================= */
 .nav-container {
-    border-top: 1px solid #888;    /* Garis atas */
-    border-bottom: 1px solid #888; /* Garis bawah */
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
     padding: 15px 0;
-    text-align: center;            /* Posisi tengah sesuai gambar */
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -43,27 +60,22 @@ h1.site-title {
     color: #000;
 }
 
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 0 25px;
+/* =========================================
+   4. POST LIST (HOMEPAGE) & TITLES
+   ========================================= */
+.post-item {
+    margin-bottom: 50px;
 }
 
-/* HEADER SECTION (Gambar 2) */
-header {
-    margin-bottom: 20px;
-}
-
-/* CONTENT SECTION (Gambar 1 & 2) */
 .post-title {
-    font-size: 28px;
+    font-size: 28px; /* Mengambil ukuran yang sedikit lebih besar agar jelas */
     font-weight: 400;
-    margin-bottom: 8px;
+    margin: 0 0 10px 0;
     color: #111;
 }
 
 .post-title a {
-    text-decoration: underline; /* Garis bawah pada judul */
+    text-decoration: underline;
     color: #1a1a1a;
 }
 
@@ -74,18 +86,21 @@ header {
     text-align: left;
 }
 
-/* Style khusus untuk bold teks 'selamat' seperti di gambar */
 .bold-text {
     font-weight: 700;
 }
 
-
 .post-date {
     font-size: 17px;
-    color: #222;
+    color: #444; /* Sedikit lebih gelap dari #222 agar konsisten */
+    margin-top: 5px;
     margin-bottom: 35px;
+    text-align: right; /* Default untuk list, bisa di override jika perlu */
 }
 
+/* =========================================
+   5. SINGLE POST CONTENT
+   ========================================= */
 .post-content {
     font-size: 19px;
     color: #1a1a1a;
@@ -95,7 +110,6 @@ header {
     margin-bottom: 25px;
 }
 
-/* Heading 1 di dalam konten */
 .post-content h2 {
     font-size: 32px;
     font-weight: 400;
@@ -103,47 +117,9 @@ header {
     color: #000;
 }
 
-/* Reset style dasar ul */
-ul.archive-list {
-    list-style-type: disc; /* Bullet point bulat hitam */
-    padding-left: 20px;    /* Indentasi bullet */
-    margin: 0;
-}
-
-/* Style per item baris */
-li.archive-item {
-    margin-bottom: 15px;   /* Jarak antar baris ke bawah */
-    padding-left: 10px;    /* Jarak antara bullet dan teks tanggal */
-    font-size: 20px;       /* Ukuran font sesuai gambar */
-    line-height: 1.5;
-}
-
-/* Wrapper konten agar bisa disejajarkan */
-.item-content {
-    display: inline-flex;  /* Mengatur Tanggal dan Judul dalam satu baris */
-    align-items: baseline; /* Menyamakan garis dasar teks */
-}
-
-/* Bagian Tanggal */
-.archive-date {
-    width: 130px;          /* Lebar tetap agar judul di kanan lurus rata */
-    flex-shrink: 0;        /* Mencegah tanggal menyusut */
-    color: #1a1a1a;
-}
-
-/* Bagian Judul (Link) */
-.archive-title {
-    text-decoration: underline; /* Garis bawah sesuai gambar */
-    color: #1a1a1a;
-    cursor: pointer;
-}
-
-.archive-title:hover {
-    color: #000;
-    font-weight: 500; /* Efek hover sedikit lebih tebal (opsional) */
-}
-
-/* --- PAGINATION --- */
+/* =========================================
+   6. PAGINATION
+   ========================================= */
 .pagination {
     text-align: center;
     margin: 60px 0 30px 0;
@@ -161,8 +137,58 @@ li.archive-item {
     margin: 0 8px;
 }
 
+/* =========================================
+   7. ARCHIVE LIST STYLE
+   ========================================= */
+ul.archive-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
 
-/* --- FOOTER --- */
+li.archive-item {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.item-content {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.archive-date {
+    width: 130px;
+    flex-shrink: 0;
+    color: #1a1a1a;
+}
+
+.archive-title {
+    text-decoration: underline;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.archive-title:hover {
+    color: #000;
+    font-weight: 500;
+}
+
+/* =========================================
+   8. ABOUT ME SECTION
+   ========================================= */
+.about-me-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+/* =========================================
+   9. FOOTER
+   ========================================= */
 footer {
     border-top: 1px solid #888;
     padding-top: 20px;
