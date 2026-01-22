@@ -3,6 +3,7 @@ layout: page
 title: Arsip
 ---
 
+<section>
 {% assign current_year = "" %}
 
 {% for post in site.posts %}
@@ -32,3 +33,4 @@ title: Arsip
   {% endif %}
 
 {% endfor %}
+</section>
