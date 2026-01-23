@@ -3,14 +3,10 @@
    ========================================= */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
 
-/* =========================================
-   DARK MODE
-   ========================================= */
-
 body {
     font-family: "Inria Serif", serif;
-    color: #dcdcdc;
-    background: #292929;
+    color: #1a1a1a;
+    background: #ffffff;
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -38,7 +34,7 @@ h1.site-title {
 
 .site-subtitle {
     font-size: 18px;
-    color: #dcdcdc;
+    color: #333;
     margin: 5px 0 25px 0;
 }
 
@@ -55,13 +51,13 @@ h1.site-title {
 
 .nav-container a {
     text-decoration: none;
-    color: #dcdcdc;
+    color: #333;
     margin: 0 15px;
     font-size: 18px;
 }
 
 .nav-container a:hover {
-    color: #ffff00;
+    color: #000;
 }
 
 /* =========================================
@@ -75,17 +71,17 @@ h1.site-title {
     font-size: 26px; /* Mengambil ukuran yang sedikit lebih besar agar jelas */
     font-weight: 400;
     margin: 0 0 10px 0;
-    color: #dcdcdc;
+    color: #111;
 }
 
 .post-title a {
     text-decoration: underline;
-    color: #dcdcdc;
+    color: #1a1a1a;
 }
 
 .post-excerpt {
     font-size: 18px;
-    color: #dcdcdc;
+    color: #222;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -96,14 +92,14 @@ h1.site-title {
 
 .post-date {
     font-size: 17px;
-    color: #dcdcdc;
+    color: #222;
     margin-bottom: 35px;
 }
 
 .post-date-2 {
     text-align: right; /* Tanggal rata kanan */
     font-size: 16px;
-    color: #dcdcdc;
+    color: #444;
     margin-top: 5px;
 }
 
@@ -112,7 +108,7 @@ h1.site-title {
    ========================================= */
 .post-content {
     font-size: 19px;
-    color: #dcdcdc;
+    color: #1a1a1a;
 }
 
 .post-content p {
@@ -123,28 +119,28 @@ h1.site-title {
     font-size: 32px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #dcdcdc;
+    color: #000;
 }
 
 .post-content h2 {
     font-size: 29px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #dcdcdc;
+    color: #000;
 }
 
 .post-content h3 {
     font-size: 26px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #dcdcdc;
+    color: #000;
 }
 
 .post-content h4 {
     font-size: 23px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #dcdcdc;
+    color: #000;
 }
 
 
@@ -155,12 +151,12 @@ h1.site-title {
     text-align: center;
     margin: 60px 0 30px 0;
     font-size: 18px;
-    color: #dcdcdc;
+    color: #555;
 }
 
 .pagination a {
     text-decoration: none;
-    color: #dcdcdc;
+    color: #333;
     margin: 0 8px;
 }
 
@@ -193,17 +189,17 @@ li.archive-item {
 .archive-date {
     width: 130px;          /* Lebar tetap agar judul di kanan lurus rata */
     flex-shrink: 0;        /* Mencegah tanggal menyusut */
-    color: #dcdcdc;
+    color: #1a1a1a;
 }
 
 .archive-title {
     text-decoration: underline;
-    color: #dcdcdc;
+    color: #1a1a1a;
     cursor: pointer;
 }
 
 .archive-title:hover {
-    color: #ffffff;
+    color: #000;
     font-weight: 500;
 }
 
@@ -215,7 +211,7 @@ li.archive-item {
     font-size: 38px;
     font-weight: 400;
     margin-bottom: 30px;
-    color: #dcdcdc;
+    color: #111;
 }
 
 .post-body img, .post-content img {
@@ -233,13 +229,13 @@ footer {
     padding-top: 20px;
     text-align: center;
     font-size: 16px;
-    color: #dcdcdc;
+    color: #333;
     margin-bottom: 40px;
 }
 
 /* Container utama untuk code block di Jekyll */
 div.highlighter-rouge, .highlight {
-    background: #454343;    /* Memberi warna background abu muda */
+    background: #f5f5f5;    /* Memberi warna background abu muda */
     border-radius: 6px;     /* Sudut membulat */
     padding: 7px;          /* Jarak teks ke pinggir kotak */
     
@@ -256,5 +252,3 @@ pre, code {
     line-height: 1.5;
     margin: 0;
 }
-
-
