@@ -7,33 +7,10 @@
    DARK MODE
    ========================================= */
 
-:root, ::after, ::before, ::backdrop {
-  --native-dark-opacity: 0.85;
-  --native-dark-brightness: 0.85;
-  --native-dark-bg-color: #292929;
-  --native-dark-text-shadow: none;
-  --native-dark-font-color: #dcdcdc;
-  --native-dark-link-color: #8db2e5;
-  --native-dark-cite-color: #92de92;
-  --native-dark-fill-color: #7d7d7d;
-  --native-dark-accent-color: #a9a9a9;
-  --native-dark-border-color: #555555;
-  --native-dark-bg-blend-mode: multiply;
-  --native-dark-transparent-color: transparent;
-  --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
-  --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
-  --native-dark-bg-image-filter: brightness(50%) contrast(200%);
-}
-
-:root {
-  color-scheme: dark !important;
-  accent-color: var(--native-dark-accent-color);
-}        
-
 body {
     font-family: "Inria Serif", serif;
-    color: #1a1a1a;
-    background: #ffffff;
+    color: #dcdcdc;
+    background: #292929;
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -61,7 +38,7 @@ h1.site-title {
 
 .site-subtitle {
     font-size: 18px;
-    color: #333;
+    color: #dcdcdc;
     margin: 5px 0 25px 0;
 }
 
@@ -78,13 +55,13 @@ h1.site-title {
 
 .nav-container a {
     text-decoration: none;
-    color: #333;
+    color: #dcdcdc;
     margin: 0 15px;
     font-size: 18px;
 }
 
 .nav-container a:hover {
-    color: #000;
+    color: #ffff00;
 }
 
 /* =========================================
@@ -98,17 +75,17 @@ h1.site-title {
     font-size: 26px; /* Mengambil ukuran yang sedikit lebih besar agar jelas */
     font-weight: 400;
     margin: 0 0 10px 0;
-    color: #111;
+    color: #dcdcdc;
 }
 
 .post-title a {
     text-decoration: underline;
-    color: #1a1a1a;
+    color: #dcdcdc;
 }
 
 .post-excerpt {
     font-size: 18px;
-    color: #222;
+    color: #dcdcdc;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -119,14 +96,14 @@ h1.site-title {
 
 .post-date {
     font-size: 17px;
-    color: #222;
+    color: #dcdcdc;
     margin-bottom: 35px;
 }
 
 .post-date-2 {
     text-align: right; /* Tanggal rata kanan */
     font-size: 16px;
-    color: #444;
+    color: #dcdcdc;
     margin-top: 5px;
 }
 
@@ -135,7 +112,7 @@ h1.site-title {
    ========================================= */
 .post-content {
     font-size: 19px;
-    color: #1a1a1a;
+    color: #dcdcdc;
 }
 
 .post-content p {
@@ -146,28 +123,28 @@ h1.site-title {
     font-size: 32px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #000;
+    color: #dcdcdc;
 }
 
 .post-content h2 {
     font-size: 29px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #000;
+    color: #dcdcdc;
 }
 
 .post-content h3 {
     font-size: 26px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #000;
+    color: #dcdcdc;
 }
 
 .post-content h4 {
     font-size: 23px;
     font-weight: 400;
     margin: 45px 0 20px 0;
-    color: #000;
+    color: #dcdcdc;
 }
 
 
@@ -178,12 +155,12 @@ h1.site-title {
     text-align: center;
     margin: 60px 0 30px 0;
     font-size: 18px;
-    color: #555;
+    color: #dcdcdc;
 }
 
 .pagination a {
     text-decoration: none;
-    color: #333;
+    color: #dcdcdc;
     margin: 0 8px;
 }
 
@@ -216,17 +193,17 @@ li.archive-item {
 .archive-date {
     width: 130px;          /* Lebar tetap agar judul di kanan lurus rata */
     flex-shrink: 0;        /* Mencegah tanggal menyusut */
-    color: #1a1a1a;
+    color: #dcdcdc;
 }
 
 .archive-title {
     text-decoration: underline;
-    color: #1a1a1a;
+    color: #dcdcdc;
     cursor: pointer;
 }
 
 .archive-title:hover {
-    color: #000;
+    color: #ffffff;
     font-weight: 500;
 }
 
@@ -238,7 +215,7 @@ li.archive-item {
     font-size: 38px;
     font-weight: 400;
     margin-bottom: 30px;
-    color: #111;
+    color: #dcdcdc;
 }
 
 .post-body img, .post-content img {
@@ -256,13 +233,13 @@ footer {
     padding-top: 20px;
     text-align: center;
     font-size: 16px;
-    color: #333;
+    color: #dcdcdc;
     margin-bottom: 40px;
 }
 
 /* Container utama untuk code block di Jekyll */
 div.highlighter-rouge, .highlight {
-    background: #f5f5f5;    /* Memberi warna background abu muda */
+    background: #787575;    /* Memberi warna background abu muda */
     border-radius: 6px;     /* Sudut membulat */
     padding: 7px;          /* Jarak teks ke pinggir kotak */
     
@@ -281,40 +258,3 @@ pre, code {
 }
 
 
-/* Lain-lain */
-html a:visited, 
-html a:visited > *:not(svg) {
-  color: var(--native-dark-visited-link-color) !important;
-}
-
-a[ping]:link,
-a[ping]:link > *:not(svg),
-:link:not(cite) {
-  color: var(--native-dark-link-color) !important;
-}
-
-html cite,
-html cite a:link,
-html cite a:visited {
-  color: var(--native-dark-cite-color) !important;
-}
-
-figure:empty {
-  opacity: var(--native-dark-opacity) !important;
-}
-
-img,
-image {
-  filter: brightness(var(--native-dark-brightness)) !important;
-}
-
-body {
-  background-color: var(--native-dark-bg-color) !important;
-  color: var(--native-dark-font-color) !important;
-}
-
-/* Pastikan semua elemen kontainer juga mengikuti */
-div, section, header, footer, main, nav {
-  background-color: transparent !important; /* Agar background body terlihat */
-  color: inherit;
-}
