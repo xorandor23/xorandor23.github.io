@@ -29,34 +29,7 @@
 :root {
   color-scheme: dark !important;
   accent-color: var(--native-dark-accent-color);
-}
-
-html a:visited, 
-html a:visited > *:not(svg) {
-  color: var(--native-dark-visited-link-color) !important;
-}
-
-a[ping]:link,
-a[ping]:link > *:not(svg),
-:link:not(cite) {
-  color: var(--native-dark-link-color) !important;
-}
-
-html cite,
-html cite a:link,
-html cite a:visited {
-  color: var(--native-dark-cite-color) !important;
-}
-
-figure:empty {
-  opacity: var(--native-dark-opacity) !important;
-}
-
-img,
-image {
-  filter: brightness(var(--native-dark-brightness)) !important;
-}
-        
+}        
 
 body {
     font-family: "Inria Serif", serif;
@@ -306,4 +279,32 @@ pre, code {
     font-size: 14px;
     line-height: 1.5;
     margin: 0;
+}
+
+
+/* Lain-lain */
+html a:visited, 
+html a:visited > *:not(svg) {
+  color: var(--native-dark-visited-link-color) !important;
+}
+
+a[ping]:link,
+a[ping]:link > *:not(svg),
+:link:not(cite) {
+  color: var(--native-dark-link-color) !important;
+}
+
+html cite,
+html cite a:link,
+html cite a:visited {
+  color: var(--native-dark-cite-color) !important;
+}
+
+figure:empty {
+  opacity: var(--native-dark-opacity) !important;
+}
+
+img,
+image {
+  filter: brightness(var(--native-dark-brightness)) !important;
 }
