@@ -1,6 +1,6 @@
 ---
 title: Mengenal ICS & SCADA dalam Keamanan Siber
-published: true
+published: false
 tags: bootcamp-note
 ---
 

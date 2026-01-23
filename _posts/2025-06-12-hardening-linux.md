@@ -1,6 +1,6 @@
 ---
 title: Melakukan Hardening Linux
-published: true
+published: false
 tags: bootcamp-note
 ---
 Halo teman-teman, selamat datang kembali di halaman saya :D. Kali ini saya akan membahas tentang Hardening Linux. Pembahasan ini adalah pembahasan yang menarik untuk saya, karena ketetartikan saya terhadap Linux.
