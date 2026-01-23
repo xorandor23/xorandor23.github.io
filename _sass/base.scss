@@ -19,7 +19,6 @@
   --native-dark-accent-color: #a9a9a9;
   --native-dark-border-color: #555555;
   --native-dark-bg-blend-mode: multiply;
-  --native-dark-visited-link-color: #c76ed7;
   --native-dark-transparent-color: transparent;
   --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
   --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
@@ -307,4 +306,15 @@ figure:empty {
 img,
 image {
   filter: brightness(var(--native-dark-brightness)) !important;
+}
+
+body {
+  background-color: var(--native-dark-bg-color) !important;
+  color: var(--native-dark-font-color) !important;
+}
+
+/* Pastikan semua elemen kontainer juga mengikuti */
+div, section, header, footer, main, nav {
+  background-color: transparent !important; /* Agar background body terlihat */
+  color: inherit;
 }
