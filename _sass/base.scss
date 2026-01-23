@@ -3,6 +3,61 @@
    ========================================= */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
 
+/* =========================================
+   DARK MODE
+   ========================================= */
+
+:root, ::after, ::before, ::backdrop {
+  --native-dark-opacity: 0.85;
+  --native-dark-brightness: 0.85;
+  --native-dark-bg-color: #292929;
+  --native-dark-text-shadow: none;
+  --native-dark-font-color: #dcdcdc;
+  --native-dark-link-color: #8db2e5;
+  --native-dark-cite-color: #92de92;
+  --native-dark-fill-color: #7d7d7d;
+  --native-dark-accent-color: #a9a9a9;
+  --native-dark-border-color: #555555;
+  --native-dark-bg-blend-mode: multiply;
+  --native-dark-visited-link-color: #c76ed7;
+  --native-dark-transparent-color: transparent;
+  --native-dark-bg-image-color: rgba(0, 0, 0, 0.10);
+  --native-dark-box-shadow: 0 0 0 1px rgb(255 255 255 / 10%);
+  --native-dark-bg-image-filter: brightness(50%) contrast(200%);
+}
+
+:root {
+  color-scheme: dark !important;
+  accent-color: var(--native-dark-accent-color);
+}
+
+html a:visited, 
+html a:visited > *:not(svg) {
+  color: var(--native-dark-visited-link-color) !important;
+}
+
+a[ping]:link,
+a[ping]:link > *:not(svg),
+:link:not(cite) {
+  color: var(--native-dark-link-color) !important;
+}
+
+html cite,
+html cite a:link,
+html cite a:visited {
+  color: var(--native-dark-cite-color) !important;
+}
+
+figure:empty {
+  opacity: var(--native-dark-opacity) !important;
+}
+
+img,
+image {
+  filter: brightness(var(--native-dark-brightness)) !important;
+}
+        
+
 body {
     font-family: "Inria Serif", serif;
     color: #1a1a1a;
